@@ -1,0 +1,133 @@
+body{
+    font-family: 'Arial',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #005f73;
+    color: white;
+    padding: 15px ;
+    border-radius: 5px;
+}
+.header-contant{
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 40px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#hero{
+    background-image: url('https://dv1oh8li7xq0o.cloudfront.net/brands/4489502/brand_background/f4588be6b3404b069be881982679e31d/800_450.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f4f4f4;
+}
+.hero-contant{
+    background-color: rgb(0,0,0,0.5);
+    padding: 20px;
+}
+.hero-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:darkcyan;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+.hero-button:hover{
+    background-color: rgb(81, 106, 106);
+}
+footer{
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding:10px 0;
+    border-radius: 5px;
+}
+#services{
+    background-color: #dad6d6;
+    padding: 20px;
+    text-align: center;
+
+}
+#services h2{
+    color:#007bff;
+    margin-bottom: 15px;
+}
+#services ul{
+    list-style-type: circle;
+    margin-left: 15px;
+}
+#services li{
+    margin-bottom: 10px;
+}
+#about{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+}
+#about h2{
+    color: #28a745;
+    margin-bottom: 15px;
+}
+#contact{
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+#contact h2{
+    color: #dc3545;
+    margin-bottom: 15px;
+
+}
+#contact p{
+    margin-bottom: 10px;
+}
+#services li:hover , #contact p:hover{
+    color: #0056b3;
+    cursor: pointer;
+
+}
+@media  screen and (max-width:768px) {
+    #services, #about, #contact{
+        text-align: center;
+    }
+    #services ul{
+        list-style-type: none;
+        padding: 0;
+    }
+}
+#carousel-item {
+    background-image: cover
+    ;
+}
+#carousel-inner{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
