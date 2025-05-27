@@ -19,8 +19,9 @@ header{
     
 }
 .navbar{
-    margin-left: 20px;
+    margin-left: 40px;
     font-weight: bolder;
+    font-size: 2rem;
 }
 nav ul{
     list-style: none;
@@ -130,4 +131,14 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+.login{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #27889b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
 }
